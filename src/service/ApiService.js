@@ -47,10 +47,10 @@ let headers = {
 export function signin(userDTO) {
   return call("/auth/signin", "POST", userDTO)
   .then((response) => {    
-    if(response.data.token){
-      console.log("token: ",response.data.token);
+    if(response){
+      console.log("token: ",response.token);
       // 로컬 스토리지에 토큰 저장
-      localStorage.setItem(ACCESS_TOKEN, response.data.token);
+      localStorage.setItem(ACCESS_TOKEN, response.token);
       window.location.href="/";
       // alert("로그인 토큰: " + response.token);
     }
