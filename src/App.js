@@ -93,7 +93,7 @@ var todoListPage = (
 )
 
 /* 로딩 중일 때 렌더링 할 부분 */
-var loadingPage = <h1> 로딩중.. </h1>;
+var loadingPage = <h1> 로딩중... </h1>;
 
 var content = loadingPage;
 if(!this.state.loading){
