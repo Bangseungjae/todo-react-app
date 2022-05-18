@@ -4,7 +4,7 @@ const hostname = window && window.location && window.location.hostname;
 
 if (hostname === "localhost") {
     // backendHost = "http://localhost:8080";
-    backendHost = "http://api.bsjtodolist.com";
+    backendHost = "https://api.bsjtodolist.com";
 } else {
     backendHost = "http://api.bsjtodolist.com";
 }
