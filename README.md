@@ -3,7 +3,7 @@
 ## Back-End
  - Java
  - Spring
-## Dev
+## DevOps
  - AWS ELK
  - AWS Codepipe
  - AWS Route53
